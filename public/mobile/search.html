@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <title>search.html</title>
+    <link type="image/x-icon" ref="shortcut icon" href="./images/favicon.ico">
+    <link rel="stylesheet" href="./asset/mui/css/mui.css">
+    <link rel="stylesheet" href="./asset/fontAwesome/css/font-awesome.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/search.css">
+</head>
+
+<body>
+    <!--1.头部搜索 -->
+    <div class="head">
+        <span class="head-lf">搜索中心</span>
+        <a href="javascript:history.back();" class="head-lt">
+            <span class="icon_back fa fa-arrow-left"></span>
+        </a>
+    </div>
+
+    <!-- 2.搜索输入框-->
+    <div class="search_form mui-clearfix">
+        <form action="">
+            <input type="text" class="search_content" placeholder="搜索你喜欢的商品">
+            <button type="button" class="search_btn">搜索</button>
+        </form>
+    </div>
+
+    <!--3.搜索历史工具栏 -->
+    <div class="history_bar mui-clearfix">
+        <span class="search_history">搜索历史</span>
+        <a href="javascript:;" class="clear_all">
+            <span class="mui-icon mui-icon-trash"></span> 清空记录
+        </a>
+    </div>
+
+    <!--4.历史记录的显示列表  -->
+    <div class="history_list">
+    </div>
+
+
+    <!-- 底部菜单 -->
+    <footer>
+        <a href="javascript:;" class="active">
+            <span class="mui-icon mui-icon-home"></span>
+            <p>首页</p>
+        </a>
+        <a href="category.html">
+            <span class="mui-icon mui-icon-bars"></span>
+            <p>分类</p>
+        </a>
+        <a href="javascript:;">
+            <span class="tab_cart fa fa-shopping-cart"></span>
+            <p>购物车</p>
+        </a>
+        <a href="javascript:;">
+            <span class="mui-icon mui-icon-contact"></span>
+            <p>会员中心</p>
+        </a>
+
+    </footer>
+</body>
+<script src="./asset/mui/js/mui.js"></script>
+<script src="./asset/zepto/zepto.min.js"></script>
+<script src="./js/common.js"></script>
+<script src="./js/search.js"></script>
+
+</html>

@@ -1,41 +1,72 @@
-header {
-  height: 40px;
-  background-color: #27a5a3;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+.head {
+  width: 100%;
+  height: 45px;
+  background-color: #006699;
   position: fixed;
   top: 0;
-  width: 100%;
-  padding: 5px 7px;
-}
-header h2 {
-  color: #fff;
   text-align: center;
-  font-weight: normal;
-  font-size: 20px;
-}
-header h2 a.lt_header_rt {
   color: #fff;
-  float: right;
+  font-size: 18px;
+  z-index: 10;
+}
+.head .head-lf {
+  height: 45px;
+  line-height: 45px;
+  font-weight: normal;
+}
+.head .head-rt {
+  display: block;
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  color: inherit;
+}
+.head .head-lt {
+  display: inline-block;
+  position: absolute;
+  left: 12px;
+  top: 12px;
+  color: inherit;
 }
 footer {
   position: fixed;
-  bottom: 0;
-  width: 100%;
+  bottom: 0px;
   height: 45px;
-  background-color: #27a5a3;
-  text-align: center;
+  width: 100%;
+  background-color: #006699;
+  z-index: 10;
   color: #fff;
-  padding-top: 4px;
 }
 footer a {
-  float: left;
-  width: 25%;
+  display: block;
   color: inherit;
-}
-footer a .mui-icon {
-  font-size: 18px;
+  width: 25%;
+  float: left;
+  text-align: center;
+  font-size: 12px;
+  padding: 3px 0;
 }
 footer a p {
+  margin: -3px;
   color: inherit;
-  font-size: 12px;
+}
+footer a .tab_cart {
+  font-size: 21px;
+}
+footer .active {
+  color: #ff8c00;
 }
 /*# sourceMappingURL=./common.css.map */

@@ -1,1 +1,78 @@
+.view {
+  height: 100%;
+  position: relative;
+  background-color: #fff;
+}
+.shoes-sorts {
+  padding: 10px;
+}
+.shoes-sorts a {
+  display: block;
+  float: left;
+  width: 33.33%;
+}
+.shoes-sorts a img {
+  width: 100%;
+}
+.product_list {
+  border-top: 1px solid #ccc;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+}
+.product_list a {
+  display: block;
+}
+.product_list .fl {
+  float: left;
+  width: 67.1%;
+}
+.product_list .fl img {
+  width: 50%;
+  float: left;
+}
+.product_list .fr {
+  float: right;
+  width: 32.9%;
+}
+.product_list .fr img {
+  width: 100%;
+}
+.sports_area .sports_area_title {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+.sports_area .sports_area_title img {
+  width: 100%;
+}
+.sports_area .sports_area_content .sports_outer {
+  padding: 5px;
+  width: 50%;
+  float: left;
+}
+.sports_area .sports_area_content .sports_outer .sports_in {
+  position: relative;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+.sports_area .sports_area_content .sports_outer .sports_in img {
+  width: 100%;
+}
+.sports_area .sports_area_content .sports_outer .sports_in p {
+  text-align: center;
+}
+.sports_area .sports_area_content .sports_outer .sports_in .price .price_N {
+  color: red;
+}
+.sports_area .sports_area_content .sports_outer .sports_in .price .price_B {
+  text-decoration: line-through;
+}
+.sports_area .sports_area_content .sports_outer .sports_in a {
+  color: #fff;
+  display: block;
+  width: 50%;
+  text-align: center;
+  margin-left: 44px;
+}
 /*# sourceMappingURL=./index.css.map */

@@ -1,0 +1,94 @@
+// 头部搜索
+.head{
+    .head-lf{}
+    .head-lt{
+        display: inline-block;
+        position: absolute;
+        left:12px;
+        top: 12px;
+        color: inherit;
+    }
+}
+
+// 搜索框
+.search_form{
+    // border: 1px solid #000;
+    background-color: #fff;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    font-size: 13px;
+    form{
+        border: 1px solid #006699;
+        border-radius: 3px;
+        height: 30px;
+        .search_content{
+            width: 80%;
+            height: 100%;
+            float: left;
+            display: inline-block;
+            border: none;
+            font-size: 13px;
+        }
+        .search_btn{
+            width: 20%;
+            float: right;
+            outline: none;
+            height: 100%;
+            display: inline-block;
+             border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+            background-color: #006699;
+            color: #fff;
+            border: none;          
+        }
+    }
+}
+
+// 3.搜索历史工具栏
+.history_bar{
+    padding: 5px 10px 10px;
+    color: #888;
+    background-color: #fff;
+    font-size: 12px;
+    .search_history{
+        display: inline-block;
+        float: left;
+    }
+    a{
+        display: inline-block;
+        float: right;
+        color: inherit;
+        span{
+            font-size: 16px;
+        }
+        
+    }
+}
+// 4.历史记录的显示列表
+.history_list{
+    background-color: #fff;
+        padding: 10px;    
+    .hl_item{
+        height: 40px;
+        border: 1px solid #888;
+        color: #888;
+        line-height: 40px;
+        font-size: 16px;
+        border-bottom: none;
+        .hl_word{
+            display: inline-block;
+            float: left;
+            padding-left: 5px;
+        }
+        .hl_item_clear{
+            display: inline-block;
+            float: right;
+            line-height:40px;
+            font-size: 24px;
+        }        
+        }
+    >.hl_item:last-child{
+        border-bottom: 1px solid #888;
+    }
+}

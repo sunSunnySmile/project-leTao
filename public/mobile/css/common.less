@@ -1,44 +1,76 @@
-  header {
-    height: 40px;
-    background-color: #27a5a3;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    padding: 5px 7px;
-    h2{
-      color: #fff;
-      text-align: center;
-      font-weight: normal;
-      font-size: 20px;
-
-      a.lt_header_rt{
-        color: #fff;
-        float: right;
-       .mui-icon{} 
-      }
-    }
-  }
-
-  footer {
-    position: fixed;
-    bottom: 0;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    // width: 100%;
+    height: 100%;
+}
+body{
+     padding-top: 45px;
+    padding-bottom: 45px;
+}
+// 头部搜索框
+.head{
     width: 100%;
     height: 45px;
-    background-color: #27a5a3;
+    background-color: #006699;
+    position: fixed;
+    top: 0;
     text-align: center;
     color: #fff;
-    padding-top: 4px;
-    // background-color: red;
-    a{
-      float: left;
-      width: 25%;
-      color: inherit;
-      .mui-icon{
-        font-size: 18px;
-      }
-      p{
-        color: inherit;
-        font-size: 12px;
-      }
+    font-size: 18px;
+    z-index: 10;
+    .head-lf{
+        height: 45px;
+        line-height: 45px;
+        font-weight: normal;
     }
-  }
+    .head-rt{
+        display: block;
+        position: absolute;
+        right:12px;
+        top:12px;
+        color: inherit;
+    }
+    .head-lt{
+        display: inline-block;
+        position: absolute;
+        left:12px;
+        top: 12px;
+        color: inherit;
+    }
+}
+
+// 底部导航栏
+footer{
+    position: fixed;
+    bottom: 0px;
+    height: 45px;
+    width: 100%;
+    background-color: #006699;
+    z-index: 10;
+    color: #fff;
+    a{
+        display: block;
+        color: inherit;
+        width: 25%;
+        float: left;
+        // color:inherit;
+        text-align: center;
+        font-size: 12px;
+        padding: 3px 0;
+        span{}
+        p{
+            margin: -3px;
+            color: inherit;
+        }
+        .tab_cart{
+            font-size: 21px;
+        }
+    }
+    .active{
+        color:#ff8c00;
+    }
+}
