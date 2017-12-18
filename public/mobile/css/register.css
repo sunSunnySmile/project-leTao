@@ -1,0 +1,29 @@
+.view {
+  height: 100%;
+  background-color: #fff;
+}
+.Lt_form {
+  padding: 10px;
+}
+.Lt_form form:after {
+  display: none;
+}
+.Lt_form .mui-input-row {
+  margin: 10px 0;
+}
+.Lt_form .mui-input-row input {
+  border: 1px solid #ccc;
+}
+.Lt_form .mui-button-row button {
+  width: 100%;
+}
+.Lt_form .vCode {
+  width: 60%;
+}
+.Lt_form .mui-input-row .getCodeBtn {
+  width: 30%;
+}
+.Lt_form .mui-input-row:after {
+  display: none;
+}
+/*# sourceMappingURL=./register.css.map */

@@ -1,0 +1,88 @@
+.view {
+  height: 100%;
+  position: relative;
+  background-color: #fff;
+}
+.pro_item {
+  padding: 15px 5px;
+  border-bottom: 1px solid #ccc;
+}
+.carousel .mui-slider-indicator {
+  position: static;
+}
+.pro_price {
+  font-size: 14px;
+}
+.pro_price .p_newPrice {
+  font-size: 20px;
+  color: red;
+  font-weight: 900;
+}
+.pro_price .p_oldPrice {
+  font-size: 12px;
+  color: #888;
+  text-decoration: line-through;
+}
+.pro_size span.p_size {
+  border: 1px solid #666;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 14px;
+  margin: 2px;
+}
+.pro_size span.active {
+  background-color: orangered;
+  color: #fff;
+}
+.pro_num {
+  font-size: 14px;
+}
+.pro_num .mui-numbox {
+  width: 90px;
+  padding-left: 30px;
+}
+.pro_num .mui-numbox .mui-btn {
+  width: 30px;
+}
+.pro_num .mui-numbox .mui-numbox-input {
+  width: 28px !important;
+}
+footer {
+  padding-left: 60px;
+  padding-top: 8px;
+}
+footer .shopping_car {
+  position: absolute;
+  top: 10px;
+  width: 60px;
+  left: 0px;
+  text-align: center;
+  color: #fff;
+  font-size: 26px;
+}
+footer .car_tool {
+  width: 100%;
+}
+footer .car_tool .add_toCar {
+  width: 45%;
+  background-color: #dd524d;
+  display: inline-block;
+  height: 30px;
+  font-size: 16px;
+  text-align: center;
+  line-height: 27px;
+  margin-right: 5%;
+}
+footer .car_tool .imm_buy {
+  width: 45%;
+  background-color: #f0ad4e;
+  display: inline-block;
+  height: 30px;
+  font-size: 16px;
+  text-align: center;
+  line-height: 27px;
+}
+/*# sourceMappingURL=./product.css.map */

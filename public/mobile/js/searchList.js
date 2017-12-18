@@ -30,7 +30,7 @@ $(function() {
 
                         queryProduct(function(result) {
                                 Count = result.count;
-                                console.log(result);
+                                // console.log(result);
 
                                 var html = template("prolistTpl", result);
                                 $(".product_list").html(html);

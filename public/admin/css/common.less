@@ -1,0 +1,88 @@
+html,body{
+    height: 100%;
+}
+.view{
+    height: 100%;
+    // width: 100%;
+    position: relative;
+    padding-left: 180px;
+}
+.p0{
+    padding-left: 0;
+}
+.p0 .left_menu{
+    display: none;
+}
+.left_menu{
+    background-color: #222d32;
+    width: 180px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    .logo{
+        font-size: 22px;
+        height: 50px;
+        line-height: 50px;
+        color: #fff;
+        font-weight: 900;
+        background-color: #367fa9;
+        text-align: center;
+    }
+    .Lt_menu{
+        .user{
+            padding: 30px  0;
+            text-align: center;
+            color: #fff;
+            img{
+                height: 50px;
+                border-radius: 50%;
+            }         
+        }
+        .menu_list{
+                ul{
+                    list-style: none;
+                    margin: 0;
+                    padding: 0;
+                    li{   
+                        a{
+                            display: block;
+                            padding: 10px 0;
+                            text-align: center;
+                            color:#aaaaaa;
+                            text-decoration: none;
+                        }
+                        .sub_menu{
+                        display: none;
+                        padding-left: 20px;
+                    }
+               }
+                .active{
+                    background-color: #000;
+                    border-left: 5px solid #3c8dbc;
+                    }
+                }
+            }
+    }
+}
+// 主要内容
+.Lt_main_content{
+    height: 100%;
+    .Lt_top_nav{
+        height: 50px;
+        background-color: #3c8dbc;
+        padding:12px;    
+        a{
+            color:#fff;
+            font-size: 20px;
+        }
+    }
+    .main_content{
+        padding: 10px;
+    }
+}
+
+// modal
+.modal-content{
+    width: 300px;
+}
